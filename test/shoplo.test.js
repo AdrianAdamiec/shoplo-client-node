@@ -13,7 +13,7 @@ describe('Shoplo', () => {
     const clientSecret  = base.config.clientSecret;
     // const shoploClient  = base.shoploClient;
 
-    describe('Shoplo constructor validation', () => {
+    describe('Client constructor validation', () => {
 
         it('throws an error when required options missing or invalid', () => {
 
