@@ -1,0 +1,19 @@
+{
+  "collection":{
+    "id":"18",
+    "title":"new",
+    "url":"new",
+    "description":"",
+    "logo":"",
+    "label":"",
+    "label_color":"BFE318",
+    "count":"49",
+    "created_at":"2013-11-18 09:46:33",
+    "updated_at":"2018-02-01 19:24:21",
+    "metadata":{
+      "meta_title":"",
+      "meta_description":"",
+      "meta_keywords":""
+    }
+  }
+}

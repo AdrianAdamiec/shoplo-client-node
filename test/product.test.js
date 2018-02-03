@@ -107,4 +107,14 @@ describe('Shoplo product resource', () => {
         return productResource.bulkUpdateProducts(input)
             .then(data => expect(data.body).to.deep.equal(output));
     });
+
+    it('deletes a product', () => {
+
+        shoplo
+            .delete('/services/products/2027')
+            .reply(200, {});
+
+        return productResource.deleteProduct(2027)
+            .then(data => expect(data.body).to.deep.equal({}));
+    });
 });

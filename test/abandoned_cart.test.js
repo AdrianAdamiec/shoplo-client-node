@@ -32,4 +32,15 @@ describe('Shoplo shop resource', () => {
         return abandonedCartResource.getAbandonedCarts('qpLd1zdJ32SSl2B4')
             .then(data => expect(data.body).to.deep.equal(output));
     });
+
+    it('gets abandoned carts count', () => {
+        const output = fixtures.res.count;
+
+        shoplo
+            .get('/services/checkout/count')
+            .reply(200, output);
+
+        return abandonedCartResource.getCount()
+            .then(data => expect(data.body).to.deep.equal(output));
+    });
 });

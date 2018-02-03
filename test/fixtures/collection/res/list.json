@@ -1,0 +1,106 @@
+{
+  "collections":[
+    {
+      "id":"18",
+      "title":"new",
+      "url":"new",
+      "description":"",
+      "logo":"",
+      "label":"",
+      "label_color":"BFE318",
+      "count":"49",
+      "created_at":"2013-11-18 09:46:33",
+      "updated_at":"2018-02-01 19:24:21",
+      "metadata":{
+        "meta_title":"",
+        "meta_description":"",
+        "meta_keywords":""
+      }
+    },
+    {
+      "id":"20",
+      "title":"Zdrowa żywność",
+      "url":"zdrowa-zywnosc",
+      "description":"",
+      "logo":"",
+      "label":"",
+      "label_color":"",
+      "count":"1",
+      "created_at":"2015-07-09 10:39:11",
+      "updated_at":"2018-01-31 17:16:51",
+      "metadata":{
+        "meta_title":"",
+        "meta_description":"",
+        "meta_keywords":""
+      }
+    },
+    {
+      "id":"22",
+      "title":"marcinbig",
+      "url":"marcinbig",
+      "description":"",
+      "logo":"",
+      "label":"",
+      "label_color":"",
+      "count":"100",
+      "created_at":"2015-10-08 08:48:16",
+      "updated_at":"2018-02-01 19:24:21",
+      "metadata":{
+        "meta_title":"",
+        "meta_description":"",
+        "meta_keywords":""
+      }
+    },
+    {
+      "id":"24",
+      "title":"waiting",
+      "url":"waiting",
+      "description":"",
+      "logo":"",
+      "label":"",
+      "label_color":"",
+      "count":"808",
+      "created_at":"2016-03-30 21:08:28",
+      "updated_at":"2016-08-30 09:19:03",
+      "metadata":{
+        "meta_title":"",
+        "meta_description":"",
+        "meta_keywords":""
+      }
+    },
+    {
+      "id":"26",
+      "title":"excluded",
+      "url":"excluded",
+      "description":"",
+      "logo":"",
+      "label":"",
+      "label_color":"",
+      "count":"148",
+      "created_at":"2016-12-05 14:39:33",
+      "updated_at":"2018-02-01 19:24:21",
+      "metadata":{
+        "meta_title":"",
+        "meta_description":"",
+        "meta_keywords":""
+      }
+    },
+    {
+      "id":"28",
+      "title":"excluded2",
+      "url":"excluded2",
+      "description":"",
+      "logo":"",
+      "label":"",
+      "label_color":"",
+      "count":"0",
+      "created_at":"2016-12-05 15:50:07",
+      "updated_at":"2017-03-25 11:47:51",
+      "metadata":{
+        "meta_title":"",
+        "meta_description":"",
+        "meta_keywords":""
+      }
+    }
+  ]
+}
