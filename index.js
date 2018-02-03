@@ -20,7 +20,6 @@ class ShoploClient{
         assert(options.clientSecret, 'Must provide client secret');
         assert(options.callbackUrl, 'Must provide callback url');
 
-        this.timeout = 'timeout' in options ? options.timeout : 60000;
         this.clientKey = options.clientKey;
         this.clientSecret = options.clientSecret;
         this.callbackUrl = options.callbackUrl;
