@@ -1,0 +1,14 @@
+[{
+  "id": "8913",
+  "title": "Bulk update product 1",
+  "description": "Bulk update product 1",
+  "quantity": "5",
+  "price": "549"
+},
+{
+  "id": "8915",
+  "title": "Bulk update product 2",
+  "description": "Bulk update product 2",
+  "quantity": "2",
+  "price": "619"
+}]

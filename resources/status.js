@@ -29,11 +29,11 @@ class StatuseResource {
     }
 
     createStatuse(statuse){
-        return this.shoploClient.create(StatuseResource.getStatusePath(null), {statuse:statuse});
+        return this.shoploClient.create(StatuseResource.getStatusePath(null), { statuse:statuse });
     }
 
     updateStatuse(id, statuse){
-        return this.shoploClient.update(StatuseResource.getStatusePath(id), {statuse:statuse});
+        return this.shoploClient.update(StatuseResource.getStatusePath(id), { statuse:statuse });
     }
 
     deleteStatuse(id){

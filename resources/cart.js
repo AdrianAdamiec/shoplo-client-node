@@ -29,11 +29,11 @@ class CartResource {
     }
 
     createCart(cart){
-        return this.shoploClient.create(CartResource.getCartPath(null), {cart:cart});
+        return this.shoploClient.create(CartResource.getCartPath(null), { cart:cart });
     }
 
     updateCart(id, cart){
-        return this.shoploClient.update(CartResource.getCartPath(id), {cart:cart});
+        return this.shoploClient.update(CartResource.getCartPath(id), { cart:cart });
     }
 
     deleteCart(id){

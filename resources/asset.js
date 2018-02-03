@@ -29,12 +29,12 @@ class AssetResource {
     }
 
     createAsset(themeId, asset){
-        return this.shoploClient.create(AssetResource.getAssetPath(themeId), {asset:asset});
+        return this.shoploClient.create(AssetResource.getAssetPath(themeId), { asset:asset });
     }
 
     updateAsset(themeId, id, asset){
         asset.key = id;
-        const assetRequest = {asset:asset};
+        const assetRequest = { asset:asset };
         return this.shoploClient.create(AssetResource.getAssetPath(themeId, id), assetRequest);
     }
 

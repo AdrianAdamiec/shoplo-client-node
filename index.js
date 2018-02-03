@@ -2,7 +2,6 @@ const url = require('url');
 const OAuth1Client = require('oauth-1-client');
 const httpBuildQuery = require('http-build-query');
 const assert = require('assert');
-const _ = require('lodash');
 
 class ShoploClient{
 
@@ -16,8 +15,6 @@ class ShoploClient{
      * @param {Number} [options.timeout] The request timeout
      */
     constructor(options) {
-        assert(options, 'Mising app configuration');
-        assert(_.isEmpty(options), 'Mising app configuration');
         assert(options, 'Mising app configuration');
         assert(options.clientKey, 'Must provide client key');
         assert(options.clientSecret, 'Must provide client secret');

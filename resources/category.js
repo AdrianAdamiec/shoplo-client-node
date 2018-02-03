@@ -29,11 +29,11 @@ class CategoryResource {
     }
 
     createCategory(category){
-        return this.shoploClient.create(CategoryResource.getCategoryPath(null), {category:category});
+        return this.shoploClient.create(CategoryResource.getCategoryPath(null), { category:category });
     }
 
     updateCategory(id, category){
-        return this.shoploClient.update(CategoryResource.getCategoryPath(id), {category:category});
+        return this.shoploClient.update(CategoryResource.getCategoryPath(id), { category:category });
     }
 
     deleteCategory(id){

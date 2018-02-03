@@ -29,11 +29,11 @@ class OrderResource {
     }
 
     createOrder(order){
-        return this.shoploClient.create(OrderResource.getOrderPath(null), {order:order});
+        return this.shoploClient.create(OrderResource.getOrderPath(null), { order:order });
     }
 
     updateOrder(id, order){
-        return this.shoploClient.update(OrderResource.getOrderPath(id), {order:order});
+        return this.shoploClient.update(OrderResource.getOrderPath(id), { order:order });
     }
 
     deleteOrder(id){

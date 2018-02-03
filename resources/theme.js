@@ -25,7 +25,7 @@ class ThemeResource {
     }
 
     updateTheme(id, theme){
-        return this.shoploClient.update(ThemeResource.getThemePath(id), {theme:theme});
+        return this.shoploClient.update(ThemeResource.getThemePath(id), { theme:theme });
     }
 }
 

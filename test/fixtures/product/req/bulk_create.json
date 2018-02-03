@@ -1,0 +1,12 @@
+[{
+  "title": "Bulk create product 1",
+  "description": "Bulk create product 1",
+  "quantity": "5",
+  "price": "549"
+},
+{
+"title": "Bulk create product 2",
+"description": "Bulk create product 2",
+"quantity": "2",
+"price": "619"
+}]

@@ -1,0 +1,128 @@
+{
+  "products":[
+    {
+      "id":"8913",
+      "name":"Bulk update product 1",
+      "url":"bulk-create-product-1",
+      "description":"Bulk update product 1",
+      "short_description":"",
+      "delivery_need":"1",
+      "availability":1,
+      "visibility":"1",
+      "tax":"23",
+      "tax_type":"other",
+      "price_min":"549",
+      "price_max":"549",
+      "add_to_magazine":"1",
+      "buy_if_empty":"0",
+      "magazine_group":"0",
+      "promotion_id":"0",
+      "width":"0",
+      "height":"0",
+      "depth":"0",
+      "diameter":"0",
+      "weight":"0",
+      "thumbnail":"https://api.shoplo.com/img/panel/no_photo_th640.png",
+      "created_at":"2018-02-03 17:05:39",
+      "updated_at":"2018-02-03 17:09:46",
+      "require_shipping":"1",
+      "images":[
+
+      ],
+      "vendor":null,
+      "metadata":{
+        "meta_title":null,
+        "meta_description":null,
+        "meta_keywords":null
+      },
+      "variants":[
+        {
+          "id":"25841",
+          "product_id":"8913",
+          "sku":"",
+          "property_name_1":"",
+          "property_name_2":"",
+          "property_name_3":"",
+          "price":"549",
+          "price_regular":"549",
+          "quantity":"5",
+          "weight":"0",
+          "add_to_magazine":"1",
+          "magazine_group":"0",
+          "buy_if_empty":"0",
+          "thumbnail":"https://api.shoplo.com/img/panel/no_photo_th640.png",
+          "availability":"1",
+          "availability_description":"",
+          "availability_type":"",
+          "position":"1",
+          "barcode":"",
+          "created_at":"2018-02-03 17:05:39",
+          "updated_at":"2018-02-03 17:05:39",
+          "title":"Bulk create product 1"
+        }
+      ]
+    },
+    {
+      "id":"8915",
+      "name":"Bulk update product 2",
+      "url":"bulk-create-product-2",
+      "description":"Bulk update product 2",
+      "short_description":"",
+      "delivery_need":"1",
+      "availability":1,
+      "visibility":"1",
+      "tax":"23",
+      "tax_type":"other",
+      "price_min":"619",
+      "price_max":"619",
+      "add_to_magazine":"1",
+      "buy_if_empty":"0",
+      "magazine_group":"0",
+      "promotion_id":"0",
+      "width":"0",
+      "height":"0",
+      "depth":"0",
+      "diameter":"0",
+      "weight":"0",
+      "thumbnail":"https://api.shoplo.com/img/panel/no_photo_th640.png",
+      "created_at":"2018-02-03 17:05:39",
+      "updated_at":"2018-02-03 17:09:46",
+      "require_shipping":"1",
+      "images":[
+
+      ],
+      "vendor":null,
+      "metadata":{
+        "meta_title":null,
+        "meta_description":null,
+        "meta_keywords":null
+      },
+      "variants":[
+        {
+          "id":"25843",
+          "product_id":"8915",
+          "sku":"",
+          "property_name_1":"",
+          "property_name_2":"",
+          "property_name_3":"",
+          "price":"619",
+          "price_regular":"619",
+          "quantity":"2",
+          "weight":"0",
+          "add_to_magazine":"1",
+          "magazine_group":"0",
+          "buy_if_empty":"0",
+          "thumbnail":"https://api.shoplo.com/img/panel/no_photo_th640.png",
+          "availability":"1",
+          "availability_description":"",
+          "availability_type":"",
+          "position":"1",
+          "barcode":"",
+          "created_at":"2018-02-03 17:05:39",
+          "updated_at":"2018-02-03 17:05:39",
+          "title":"Bulk create product 2"
+        }
+      ]
+    }
+  ]
+}

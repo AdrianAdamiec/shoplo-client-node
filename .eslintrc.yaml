@@ -9,7 +9,7 @@ rules:
   eqeqeq: error
   indent:
     - error
-    - 2
+    - 4
     - SwitchCase: 1
   no-empty: off
   no-multiple-empty-lines:

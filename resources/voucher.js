@@ -29,11 +29,11 @@ class VoucherResource {
     }
 
     createVoucher(voucher){
-        return this.shoploClient.create(VoucherResource.getVoucherPath(null), {voucher:voucher});
+        return this.shoploClient.create(VoucherResource.getVoucherPath(null), { voucher:voucher });
     }
 
     updateVoucher(id, voucher){
-        return this.shoploClient.update(VoucherResource.getVoucherPath(id), {voucher:voucher});
+        return this.shoploClient.update(VoucherResource.getVoucherPath(id), { voucher:voucher });
     }
 
     deleteVoucher(id){

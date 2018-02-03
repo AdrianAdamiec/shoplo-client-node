@@ -1,5 +1,3 @@
-const ShoploClient = require('..');
-
 class ShopResource {
 
     /**
@@ -15,7 +13,7 @@ class ShopResource {
         return '/services/shop';
     }
 
-    getUser(){
+    getShop(){
         return this.shoploClient.get(ShopResource.getUserPath(), null);
     }
 }

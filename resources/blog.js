@@ -29,11 +29,11 @@ class BlogResource {
     }
 
     createBlog(blog){
-        return this.shoploClient.create(BlogResource.getBlogPath(null), {blog:blog});
+        return this.shoploClient.create(BlogResource.getBlogPath(null), { blog:blog });
     }
 
     updateBlog(id, blog){
-        return this.shoploClient.update(BlogResource.getBlogPath(id), {blog:blog});
+        return this.shoploClient.update(BlogResource.getBlogPath(id), { blog:blog });
     }
 
     deleteBlog(id){

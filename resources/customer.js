@@ -29,11 +29,11 @@ class CustomerResource {
     }
 
     createCustomer(customer){
-        return this.shoploClient.create(CustomerResource.getCustomerPath(null), {customer:customer});
+        return this.shoploClient.create(CustomerResource.getCustomerPath(null), { customer:customer });
     }
 
     updateCustomer(id, customer){
-        return this.shoploClient.update(CustomerResource.getCustomerPath(id), {customer:customer});
+        return this.shoploClient.update(CustomerResource.getCustomerPath(id), { customer:customer });
     }
 
     deleteCustomer(id){

@@ -1,18 +1,20 @@
 const ShoploClient = require('..');
-const sinon = require('sinon');
+const nock = require('nock');
 
 const config = {
-    callbackUrl: "callbackUrl",
-    clientKey: "clientKey",
-    clientSecret: "clientSecret",
-    accessToken: "accessToken",
-    secretToken: "secretToken"
+    callbackUrl: 'callbackUrl',
+    clientKey: 'clientKey',
+    clientSecret: 'clientSecret',
+    accessToken: 'accessToken',
+    secretToken: 'secretToken',
+    apiHost: 'api.shoplo.tech'
 };
 
-sut = new ShoploClient(config);
-shoploClient = sinon.mock(sut.oauthClient);
+const shoploClient = new ShoploClient(config);
+const shoplo = nock(`https://${config.apiHost}`);
 
 module.exports = {
+    shoplo,
     shoploClient,
     config
 };

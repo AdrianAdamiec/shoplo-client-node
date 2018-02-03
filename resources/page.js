@@ -29,11 +29,11 @@ class PageResource {
     }
 
     createPage(page){
-        return this.shoploClient.create(PageResource.getPagePath(null), {page:page});
+        return this.shoploClient.create(PageResource.getPagePath(null), { page:page });
     }
 
     updatePage(id, page){
-        return this.shoploClient.update(PageResource.getPagePath(id), {page:page});
+        return this.shoploClient.update(PageResource.getPagePath(id), { page:page });
     }
 
     deletePage(id){
