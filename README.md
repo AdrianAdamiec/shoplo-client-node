@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/AdrianAdamiec/shoplo-client-node.svg?branch=master)](https://travis-ci.org/AdrianAdamiec/shoplo-client-node)
 [![Coverage Status](https://coveralls.io/repos/github/AdrianAdamiec/shoplo-client-node/badge.svg?branch=master)](https://coveralls.io/github/AdrianAdamiec/shoplo-client-node?branch=master)
 
 # Shoplo API node Client 
