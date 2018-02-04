@@ -112,9 +112,9 @@ describe('Shoplo product resource', () => {
 
         shoplo
             .delete('/services/products/2027')
-            .reply(200, {});
+            .reply(200, []);
 
         return productResource.deleteProduct(2027)
-            .then(data => expect(data.body).to.deep.equal({}));
+            .then(data => expect(data.body).to.deep.equal([]));
     });
 });

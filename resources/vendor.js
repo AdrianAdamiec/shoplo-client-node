@@ -29,11 +29,11 @@ class VendorResource {
     }
 
     createVendor(vendor){
-        return this.shoploClient.create(VendorResource.getVendorPath(null), { vendor:vendor });
+        return this.shoploClient.create(VendorResource.getVendorPath(null), { vendor });
     }
 
     updateVendor(id, vendor){
-        return this.shoploClient.update(VendorResource.getVendorPath(id), { vendor:vendor });
+        return this.shoploClient.update(VendorResource.getVendorPath(id), { vendor });
     }
 
     deleteVendor(id){

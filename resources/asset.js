@@ -29,7 +29,7 @@ class AssetResource {
     }
 
     createAsset(themeId, asset){
-        return this.shoploClient.create(AssetResource.getAssetPath(themeId), { asset:asset });
+        return this.shoploClient.create(AssetResource.getAssetPath(themeId), { asset });
     }
 
     updateAsset(themeId, id, asset){

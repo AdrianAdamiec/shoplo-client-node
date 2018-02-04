@@ -1,7 +1,7 @@
-class StatuseResource {
+class StatusResource {
 
     /**
-     * Create a StatuseResource instance.
+     * Create a StatusResource instance.
      *
      * @param {Object} shoploClient
      */
@@ -9,36 +9,36 @@ class StatuseResource {
         this.shoploClient = shoploClient;
     }
 
-    static getStatusePath(id) {
+    static getStatusPath(id) {
         if (id) {
             return `/services/statuses/${id}`;
         }
         return '/services/statuses';
     }
 
-    static getStatuseCountPath() {
+    static getStatusCountPath() {
         return '/services/statuses/count';
     }
 
     getStatuses(id, params){
-        return this.shoploClient.get(StatuseResource.getStatusePath(id), params);
+        return this.shoploClient.get(StatusResource.getStatusePath(id), params);
     }
 
     getCount(params){
-        return this.shoploClient.get(StatuseResource.getStatuseCountPath(), params);
+        return this.shoploClient.get(StatusResource.getStatuseCountPath(), params);
     }
 
-    createStatuse(statuse){
-        return this.shoploClient.create(StatuseResource.getStatusePath(null), { statuse:statuse });
+    createStatus(status){
+        return this.shoploClient.create(StatusResource.getStatusePath(null), { status });
     }
 
-    updateStatuse(id, statuse){
-        return this.shoploClient.update(StatuseResource.getStatusePath(id), { statuse:statuse });
+    updateStatus(id, status){
+        return this.shoploClient.update(StatusResource.getStatusePath(id), { status });
     }
 
-    deleteStatuse(id){
-        return this.shoploClient.delete(StatuseResource.getStatusePath(id), null);
+    deleteStatus(id){
+        return this.shoploClient.delete(StatusResource.getStatusePath(id), null);
     }
 }
 
-module.exports = StatuseResource;
+module.exports = StatusResource;

@@ -29,11 +29,11 @@ class VariantResource {
     }
 
     createVariant(productId, variant){
-        return this.shoploClient.create(VariantResource.getVariantPath(productId, null), { variant:variant });
+        return this.shoploClient.create(VariantResource.getVariantPath(productId, null), { variant });
     }
 
     updateVariant(productId, id, variant){
-        return this.shoploClient.update(VariantResource.getVariantPath(productId, id), { variant:variant });
+        return this.shoploClient.update(VariantResource.getVariantPath(productId, id), { variant });
     }
 
     deleteVariant(productId, id){

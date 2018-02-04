@@ -29,11 +29,11 @@ class ShippingResource {
     }
 
     createShipping(shipping){
-        return this.shoploClient.create(ShippingResource.getShippingPath(null), { shipping:shipping });
+        return this.shoploClient.create(ShippingResource.getShippingPath(null), { shipping });
     }
 
     updateShipping(id, shipping){
-        return this.shoploClient.update(ShippingResource.getShippingPath(id), { shipping:shipping });
+        return this.shoploClient.update(ShippingResource.getShippingPath(id), { shipping });
     }
 
     deleteShipping(id){

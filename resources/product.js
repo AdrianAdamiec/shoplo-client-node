@@ -33,11 +33,11 @@ class ProductResource {
     }
 
     createProduct(product){
-        return this.shoploClient.create(ProductResource.getProductPath(null), { product:product });
+        return this.shoploClient.create(ProductResource.getProductPath(null), { product });
     }
 
     updateProduct(id, product){
-        return this.shoploClient.update(ProductResource.getProductPath(id), { product:product });
+        return this.shoploClient.update(ProductResource.getProductPath(id), { product });
     }
 
     deleteProduct(id){
@@ -45,11 +45,11 @@ class ProductResource {
     }
 
     bulkCreateProducts(products){
-        return this.shoploClient.create(ProductResource.getProductBulkPath(), { products:products });
+        return this.shoploClient.create(ProductResource.getProductBulkPath(), { products });
     }
 
     bulkUpdateProducts(products){
-        return this.shoploClient.update(ProductResource.getProductBulkPath(), { products:products });
+        return this.shoploClient.update(ProductResource.getProductBulkPath(), { products });
     }
 }
 

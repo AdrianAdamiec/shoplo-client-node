@@ -29,11 +29,11 @@ class CollectionResource {
     }
 
     createCollection(collection){
-        return this.shoploClient.create(CollectionResource.getCollectionPath(null), { collection:collection });
+        return this.shoploClient.create(CollectionResource.getCollectionPath(null), { collection });
     }
 
     updateCollection(id, collection){
-        return this.shoploClient.update(CollectionResource.getCollectionPath(id), { collection:collection });
+        return this.shoploClient.update(CollectionResource.getCollectionPath(id), { collection });
     }
 
     deleteCollection(id){

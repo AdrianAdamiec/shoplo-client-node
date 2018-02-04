@@ -1,81 +1,81 @@
-describe('Shoplo collection resource', () => {
+describe('Shoplo customer resource', () => {
     'use strict';
 
     const expect = require('chai').expect;
     const httpBuildQuery = require('http-build-query');
 
-    const fixtures = require('./fixtures/collection');
+    const fixtures = require('./fixtures/customer');
     const base = require('./base');
-    const CollectionResource = require('../resources/collection');
+    const CustomerResource = require('../resources/customer');
 
     const shoplo = base.shoplo;
     const shopClient = base.shoploClient;
-    const collectionResource = new CollectionResource(shopClient);
+    const customerResource = new CustomerResource(shopClient);
 
-    it('gets the collection list', () => {
+    it('gets the customer list', () => {
         const output = fixtures.res.list;
 
         shoplo
-            .get('/services/collections')
+            .get('/services/customers')
             .reply(200, output);
 
-        return collectionResource.getCollections()
+        return customerResource.getCustomers()
             .then(data => expect(data.body).to.deep.equal(output));
     });
 
-    it('gets the collection', () => {
+    it('gets the customer', () => {
         const output = fixtures.res.get;
 
         shoplo
-            .get('/services/collections/18')
+            .get('/services/customers/7726')
             .reply(200, output);
 
-        return collectionResource.getCollections(18)
+        return customerResource.getCustomers(7726)
             .then(data => expect(data.body).to.deep.equal(output));
     });
 
-    it('gets the collections count', () => {
+    it('gets the customers count', () => {
         const output = fixtures.res.count;
 
         shoplo
-            .get('/services/collections/count')
+            .get('/services/customers/count')
             .reply(200, output);
 
-        return collectionResource.getCount()
+        return customerResource.getCount()
             .then(data => expect(data.body).to.deep.equal(output));
     });
 
-    it('creates a new collection', () => {
+    it('creates a new customer', () => {
         const input = fixtures.req.create;
         const output = fixtures.res.create;
 
         shoplo
-            .post('/services/collections', httpBuildQuery({ 'collection': input }))
+            .post('/services/customers', httpBuildQuery( input ))
             .reply(201, output);
 
-        return collectionResource.createCollection(input)
+        return customerResource.createCustomer(input)
             .then(data => expect(data.body).to.deep.equal(output));
     });
 
-    it('updates a collection', () => {
+    it('updates a customer', () => {
         const input = fixtures.req.update;
         const output = fixtures.res.update;
 
         shoplo
-            .put('/services/collections/29', httpBuildQuery({ 'collection': input }))
+            .put('/services/customers/7755', httpBuildQuery({ 'customer': input }))
             .reply(200, output);
 
-        return collectionResource.updateCollection(29, input)
+        return customerResource.updateCustomer(7755, input)
             .then(data => expect(data.body).to.deep.equal(output));
     });
 
-    it('deletes a collection', () => {
+    it('deletes a customer', () => {
 
         shoplo
-            .delete('/services/collections/29')
+            .delete('/services/customers/7755')
             .reply(200, []);
 
-        return collectionResource.deleteCollection(29)
+        return customerResource.deleteCustomer(7755)
             .then(data => expect(data.body).to.deep.equal([]));
     });
 });

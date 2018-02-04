@@ -29,11 +29,11 @@ class PromotionResource {
     }
 
     createPromotion(promotion){
-        return this.shoploClient.create(PromotionResource.getPromotionPath(null), { promotion:promotion });
+        return this.shoploClient.create(PromotionResource.getPromotionPath(null), { promotion });
     }
 
     updatePromotion(id, promotion){
-        return this.shoploClient.update(PromotionResource.getPromotionPath(id), { promotion:promotion });
+        return this.shoploClient.update(PromotionResource.getPromotionPath(id), { promotion });
     }
 
     deletePromotion(id){
