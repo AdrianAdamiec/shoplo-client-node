@@ -41,9 +41,6 @@ describe('Shoplo order resource', () => {
             .get('/services/orders/count')
             .reply(200, output);
 
-
-
-
         return orderResource.getCount()
             .then(data => expect(data.body).to.deep.equal(output));
     });
