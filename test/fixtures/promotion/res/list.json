@@ -1,0 +1,28 @@
+{
+  "promotions":[
+    {
+      "id":"1",
+      "title":"test",
+      "start_at":"2018-02-04 21:48:00",
+      "finish_at":"0000-00-00 00:00:00",
+      "promotion_type":"1",
+      "promotion_value":"1500",
+      "promotion_on_type":"2",
+      "promotion_on_value":"1086",
+      "activate":"2",
+      "created_at":"2018-02-04 21:49:00"
+    },
+    {
+      "id":"3",
+      "title":"test2",
+      "start_at":"2018-02-04 21:49:00",
+      "finish_at":"0000-00-00 00:00:00",
+      "promotion_type":"1",
+      "promotion_value":"5500",
+      "promotion_on_type":"1",
+      "promotion_on_value":"[\"8896\"]",
+      "activate":"2",
+      "created_at":"2018-02-04 21:49:46"
+    }
+  ]
+}
