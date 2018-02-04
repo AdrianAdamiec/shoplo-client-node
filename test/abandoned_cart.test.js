@@ -1,4 +1,4 @@
-describe('Shoplo shop resource', () => {
+describe('Shoplo abandoned cart resource', () => {
     'use strict';
 
     const expect = require('chai').expect;
