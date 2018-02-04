@@ -2,7 +2,7 @@ describe('Shoplo customer resource', () => {
     'use strict';
 
     const expect = require('chai').expect;
-    const httpBuildQuery = require('http-build-query');
+    const qs = require('qs');
 
     const fixtures = require('./fixtures/customer');
     const base = require('./base');
@@ -50,7 +50,7 @@ describe('Shoplo customer resource', () => {
         const output = fixtures.res.create;
 
         shoplo
-            .post('/services/customers', httpBuildQuery( input ))
+            .post('/services/customers', qs.stringify( input ))
             .reply(201, output);
 
         return customerResource.createCustomer(input)
@@ -62,7 +62,7 @@ describe('Shoplo customer resource', () => {
         const output = fixtures.res.update;
 
         shoplo
-            .put('/services/customers/7755', httpBuildQuery({ 'customer': input }))
+            .put('/services/customers/7755', qs.stringify({ 'customer': input }))
             .reply(200, output);
 
         return customerResource.updateCustomer(7755, input)

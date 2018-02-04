@@ -1,0 +1,12 @@
+{
+  "shipping_address" : {
+    "first_name" : "Test",
+    "last_name" : "Test",
+    "phone" : "123123123",
+    "street" : "Testowa",
+    "number" : "5",
+    "city" : "Kraków",
+    "zip_code" : "02-259",
+    "country_code" : "pl"
+  }
+}

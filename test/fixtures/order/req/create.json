@@ -1,0 +1,48 @@
+{
+  "discount_code" : null,
+  "landing_site" : "http://classicdark.shoplo.com/kolekcja/frontpage/adidas-samoa-shoes",
+  "referring_site" : "http://classicdark.shoplo.com",
+  "notes" : null,
+  "order_date" : "2011-12-19 21:42:37",
+  "payment_details" : {
+    "payment_id" : "2",
+    "title"	: "eps"
+  },
+  "shipping_details" : {
+    "title"	: "Odbiór osobisty",
+    "price"	: "850"
+  },
+  "shipping_address" : {
+    "first_name" : "Adrian",
+    "last_name" : "Adamiec",
+    "phone" : "123123123",
+    "street" : "Testowa",
+    "number" : "1",
+    "city" : "Warszawa",
+    "zip_code" : "02-259",
+    "country_code" : "pl"
+  },
+  "order_items" : [
+    {
+      "product_id":"2359",
+      "variant_id":"20991",
+      "quantity":"1",
+      "price":"32100"
+    }
+  ],
+  "customer" : {
+    "email" : "jan.kowalski@somemail.com",
+    "first_name" : "Jan",
+    "last_name" : "Kowalski",
+    "phone"	: "123123123",
+    "address" : [
+      {
+        "street" : "Biskupa",
+        "number" : "97",
+        "city"	: "Warszawa",
+        "zip_code"	: "02-122",
+        "country_code"	: "pl"
+      }
+    ]
+  }
+}

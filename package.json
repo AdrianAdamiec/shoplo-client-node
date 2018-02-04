@@ -17,8 +17,8 @@
   "license": "ISC",
   "dependencies": {
     "assert": "^1.4.1",
-    "http-build-query": "^0.2.2",
     "oauth-1-client": "^0.2.4",
+    "qs": "^6.5.1",
     "url": "^0.11.0"
   },
   "devDependencies": {

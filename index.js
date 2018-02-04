@@ -1,6 +1,6 @@
 const url = require('url');
 const OAuth1Client = require('oauth-1-client');
-const httpBuildQuery = require('http-build-query');
+const qs = require('qs');
 const assert = require('assert');
 
 class ShoploClient{
@@ -115,12 +115,12 @@ class ShoploClient{
 
     create(path, content){
 
-        return this.client.post(path, httpBuildQuery(content));
+        return this.client.post(path, qs.stringify(content));
     }
 
     update(path, content){
 
-        return this.client.put(path, httpBuildQuery(content));
+        return this.client.put(path, qs.stringify(content));
     }
 
     delete(path){

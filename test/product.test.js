@@ -1,7 +1,7 @@
 describe('Shoplo product resource', () => {
     'use strict';
 
-    const httpBuildQuery = require('http-build-query');
+    const qs = require('qs');
     const expect = require('chai').expect;
 
     const fixtures = require('./fixtures/product');
@@ -53,7 +53,7 @@ describe('Shoplo product resource', () => {
         const output = fixtures.res.create;
 
         shoplo
-            .post('/services/products', httpBuildQuery({ 'product': input }))
+            .post('/services/products', qs.stringify({ 'product': input }))
             .reply(201, output);
 
         return productResource.createProduct(input)
@@ -65,7 +65,7 @@ describe('Shoplo product resource', () => {
         const output = fixtures.res.create;
 
         shoplo
-            .post('/services/products', httpBuildQuery({ 'product': input }))
+            .post('/services/products', qs.stringify({ 'product': input }))
             .reply(201, output);
 
         return productResource.createProduct(input)
@@ -77,7 +77,7 @@ describe('Shoplo product resource', () => {
         const output = fixtures.res.update;
 
         shoplo
-            .put('/services/products/2027', httpBuildQuery({ 'product': input }))
+            .put('/services/products/2027', qs.stringify({ 'product': input }))
             .reply(200, output);
 
         return productResource.updateProduct(2027, input)
@@ -89,7 +89,7 @@ describe('Shoplo product resource', () => {
         const output = fixtures.res.bulk_create;
 
         shoplo
-            .post('/services/products_bulk', httpBuildQuery({ 'products': input }))
+            .post('/services/products_bulk', qs.stringify({ 'products': input }))
             .reply(201, output);
 
         return productResource.bulkCreateProducts(input)
@@ -101,7 +101,7 @@ describe('Shoplo product resource', () => {
         const output = fixtures.res.bulk_update;
 
         shoplo
-            .put('/services/products_bulk', httpBuildQuery({ 'products': input }))
+            .put('/services/products_bulk', qs.stringify({ 'products': input }))
             .reply(200, output);
 
         return productResource.bulkUpdateProducts(input)
