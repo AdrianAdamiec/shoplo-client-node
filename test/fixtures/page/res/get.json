@@ -1,0 +1,17 @@
+{
+  "page":{
+    "id":"1",
+    "title":"O nas",
+    "handle":"o-nas",
+    "url":"o-nas",
+    "content":"<h2>Ta strona czeka na Ciebie :-)</h2>\r\n<p>Oto strona, na której możesz umieścić wszystkie ważne informacje o Twoim sklepie:</p>\r\n <ul>\r\n <li>Mapkę dojazdu jeśli oferujesz odbiór osobisty</li>\r\n <li>Godziny pracy sklepu i realizacji zamówień</li>\r\n<li>Numery telefonów</li>\r\n<li>Adresy email</li>\r\n</ul><p>&nbsp;</p><p>Do dzieła!</p>",
+    "visibility":"1",
+    "created_at":"2013-02-25 12:14:59",
+    "updated_at":"2013-02-25 12:14:59",
+    "metadata":{
+      "meta_title":"",
+      "meta_description":"",
+      "meta_keywords":""
+    }
+  }
+}

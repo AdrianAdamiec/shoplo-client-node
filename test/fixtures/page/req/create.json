@@ -1,0 +1,13 @@
+{
+  "title" : "Test",
+  "url" : "test",
+  "content" : "lore ipsum dolor sit emet",
+  "visibility" : 1,
+  "metadata" : [
+    {
+      "meta_title" : "Test",
+      "meta_description" : "Lorem ipsum",
+      "meta_keywords" : "test, lorem"
+    }
+  ]
+}
