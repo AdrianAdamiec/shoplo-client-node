@@ -2,7 +2,6 @@ describe('Shoplo user resource', () => {
     'use strict';
 
     const expect = require('chai').expect;
-    const qs = require('qs');
 
     const fixtures = require('./fixtures/user');
     const base = require('./base');
