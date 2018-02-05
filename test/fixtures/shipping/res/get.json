@@ -1,0 +1,13 @@
+{
+  "shipping":{
+    "id":"4",
+    "title":"Paczkomaty",
+    "is_active":"1",
+    "charge_type":"1",
+    "charge_from":"0",
+    "charge_to":"0",
+    "delivery_price":"799",
+    "created_at":"2013-04-03 11:49:40",
+    "updated_at":"2013-04-03 11:49:40"
+  }
+}

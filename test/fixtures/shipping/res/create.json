@@ -1,0 +1,13 @@
+{
+  "shipping":{
+    "id":"16",
+    "title":"Kurier DHL",
+    "is_active":"1",
+    "charge_type":"2",
+    "charge_from":"0",
+    "charge_to":"20000",
+    "delivery_price":"3600",
+    "created_at":"2018-02-05 07:06:23",
+    "updated_at":"2018-02-05 07:06:23"
+  }
+}
