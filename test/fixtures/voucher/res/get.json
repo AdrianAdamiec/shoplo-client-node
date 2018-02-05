@@ -1,0 +1,26 @@
+{
+  "voucher":{
+    "id":"32",
+    "code":"DQ70IKHM",
+    "start_at":"2014-12-08 10:31:00",
+    "finish_at":"0000-00-00 00:00:00",
+    "quantity":"-1",
+    "quantity_used":"1",
+    "discount_type":"1",
+    "discount_value":"1000",
+    "discount_on":"1",
+    "discount_on_type":"0",
+    "discount_on_value":"0",
+    "activate":"1",
+    "apply_once":"1",
+    "per_client":"0",
+    "available_on_promo":"0",
+    "created_at":"2014-12-08 10:31:48",
+    "items":[
+      {
+        "code":"DQ70IKHM",
+        "used":"0"
+      }
+    ]
+  }
+}
