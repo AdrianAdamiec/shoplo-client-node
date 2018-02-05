@@ -1,0 +1,17 @@
+{
+  "sku" : "315122-060",
+  "property_1" : "Size",
+  "property_name_1" : "44",
+  "property_2" : "Color",
+  "property_name_2" : "Black",
+  "price" : "2100",
+  "price_regular" : "2100",
+  "quantity" : "10",
+  "weight" : "800",
+  "magazine_group" : "0",
+  "buy_if_empty" : "1",
+  "availability" : "1",
+  "availability_description" : "1-2 weeks",
+  "availability_type" : "own",
+  "barcode" : "123456789"
+}
