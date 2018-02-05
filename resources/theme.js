@@ -16,10 +16,6 @@ class ThemeResource {
         return '/services/themes';
     }
 
-    static getThemeCountPath() {
-        return '/services/themes/count';
-    }
-
     getThemes(id, params){
         return this.shoploClient.get(ThemeResource.getThemePath(id), params);
     }

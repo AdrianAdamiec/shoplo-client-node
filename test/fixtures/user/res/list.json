@@ -1,0 +1,53 @@
+{
+  "users":[
+    {
+      "id":233,
+      "email":"adrianadamiec@gmail.com",
+      "first_name":"Adrianadamiec",
+      "last_name":"",
+      "account_owner":true,
+      "permissions":[
+        "dashboard",
+        "product",
+        "order",
+        "client",
+        "marketing",
+        "layout",
+        "reports",
+        "apps",
+        "settings",
+        "blog"
+      ]
+    },
+    {
+      "id":237,
+      "email":"developer@etsy.com",
+      "first_name":"etsy",
+      "last_name":"",
+      "account_owner":false,
+      "permissions":[
+
+      ]
+    },
+    {
+      "id":239,
+      "email":"help@shoplo.com",
+      "first_name":"ceneo",
+      "last_name":"",
+      "account_owner":false,
+      "permissions":[
+
+      ]
+    },
+    {
+      "id":241,
+      "email":"adrian.adamiec@shoplo.pl",
+      "first_name":"Pomoc",
+      "last_name":"Shoplo",
+      "account_owner":false,
+      "permissions":[
+
+      ]
+    }
+  ]
+}

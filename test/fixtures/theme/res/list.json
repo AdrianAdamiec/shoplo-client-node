@@ -1,0 +1,81 @@
+{
+  "themes":[
+    {
+      "id":24,
+      "title":"Apple Style",
+      "screenshot":"https://s3-eu-west-1.amazonaws.com/shoplo-apps/core/themes/18/screenshots/main_medium.png",
+      "checkout_lang":"pl",
+      "build_id":"0",
+      "created_at":"2014-09-16 09:49:56",
+      "updated_at":"2014-09-16 09:49:56",
+      "active":false,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=24&preview_token=e83fb2cca653a2ddef62d19e853e80efb0e94ae9"
+    },
+    {
+      "id":25,
+      "title":"Launch",
+      "screenshot":"https://s3-eu-west-1.amazonaws.com/shoplo-apps/core/themes/68/screenshots/main_medium.png",
+      "checkout_lang":"pl",
+      "build_id":"0",
+      "created_at":"2014-10-13 22:36:09",
+      "updated_at":"2014-10-13 22:36:09",
+      "active":false,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=25&preview_token=f687d197b336619961b802854191757381ce8f45"
+    },
+    {
+      "id":34,
+      "title":"Joseph",
+      "screenshot":"",
+      "checkout_lang":"pl",
+      "build_id":"0",
+      "created_at":"2016-10-13 10:01:52",
+      "updated_at":"2016-10-13 10:01:52",
+      "active":false,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=34&preview_token=f4ee2e2acf52f784c98ea217114e66e1b8aa3812"
+    },
+    {
+      "id":35,
+      "title":"Shoplo Theme 130317",
+      "screenshot":"",
+      "checkout_lang":"pl",
+      "build_id":"15179",
+      "created_at":"2017-03-13 22:13:30",
+      "updated_at":"2017-03-13 22:13:30",
+      "active":false,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=35&preview_token=ec02858f187bde96ff766ca7e7594fbd189fae4b"
+    },
+    {
+      "id":36,
+      "title":"OnePager",
+      "screenshot":"",
+      "checkout_lang":"de",
+      "build_id":"0",
+      "created_at":"2017-05-19 09:38:39",
+      "updated_at":"2017-05-19 09:38:39",
+      "active":false,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=36&preview_token=1a0c735d1cb1f8530f9b618d0f303dcd45696e95"
+    },
+    {
+      "id":38,
+      "title":"Treasure Island",
+      "screenshot":"",
+      "checkout_lang":"en",
+      "build_id":"0",
+      "created_at":"2017-06-13 10:22:33",
+      "updated_at":"2017-06-13 10:22:33",
+      "active":false,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=38&preview_token=7c6e55ae3a8435a6162f5d30ca2b5587334fc1e2"
+    },
+    {
+      "id":39,
+      "title":"kaveo",
+      "screenshot":"",
+      "checkout_lang":"en",
+      "build_id":"0",
+      "created_at":"2017-12-08 14:46:52",
+      "updated_at":"2017-12-08 14:46:52",
+      "active":true,
+      "preview_url":"https://check.shoplo.com/admin/theme/preview?theme_id=39&preview_token=b4810a176e3c972472ece870b6e87e021d9ccf55"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "user":{
+    "id":241,
+    "email":"adrian.adamiec@shoplo.pl",
+    "first_name":"Pomoc",
+    "last_name":"Shoplo",
+    "account_owner":false,
+    "permissions":[
+
+    ]
+  }
+}
