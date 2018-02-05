@@ -1,0 +1,8 @@
+{
+  "name" : "Status test",
+  "url" : "status-test",
+  "color" : "1",
+  "send_mail" : "0",
+  "mail_template" : "0",
+  "change_type" : "0"
+}

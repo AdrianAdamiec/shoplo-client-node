@@ -1,0 +1,59 @@
+{
+  "order_statuses":[
+    {
+      "id":"1",
+      "name":"Nowe",
+      "url":"nowe",
+      "color":"f55161",
+      "send_mail":"0",
+      "mail_template":"0",
+      "change_type":"1",
+      "created_at":"2013-02-25 12:14:59",
+      "updated_at":"2013-02-25 12:14:59"
+    },
+    {
+      "id":"90",
+      "name":"Spakowane",
+      "url":"spakowane",
+      "color":"3cbb9b",
+      "send_mail":"0",
+      "mail_template":"0",
+      "change_type":"0",
+      "created_at":"2013-12-05 10:59:00",
+      "updated_at":"2013-12-05 10:59:00"
+    },
+    {
+      "id":"92",
+      "name":"Wysłane",
+      "url":"wyslane",
+      "color":"cee08a",
+      "send_mail":"0",
+      "mail_template":"0",
+      "change_type":"0",
+      "created_at":"2013-12-05 10:59:13",
+      "updated_at":"2013-12-05 10:59:13"
+    },
+    {
+      "id":"94",
+      "name":"Anulowane",
+      "url":"anulowane",
+      "color":"000000",
+      "send_mail":"0",
+      "mail_template":"0",
+      "change_type":"0",
+      "created_at":"2013-12-05 10:59:26",
+      "updated_at":"2013-12-05 10:59:26"
+    },
+    {
+      "id":"97",
+      "name":"koniec",
+      "url":"koniec",
+      "color":"555555",
+      "send_mail":"0",
+      "mail_template":"0",
+      "change_type":"0",
+      "created_at":"2016-02-04 14:05:49",
+      "updated_at":"2016-02-04 14:05:49"
+    }
+  ]
+}

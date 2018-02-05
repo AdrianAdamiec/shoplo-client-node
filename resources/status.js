@@ -21,23 +21,23 @@ class StatusResource {
     }
 
     getStatuses(id, params){
-        return this.shoploClient.get(StatusResource.getStatusePath(id), params);
+        return this.shoploClient.get(StatusResource.getStatusPath(id), params);
     }
 
     getCount(params){
-        return this.shoploClient.get(StatusResource.getStatuseCountPath(), params);
+        return this.shoploClient.get(StatusResource.getStatusCountPath(), params);
     }
 
     createStatus(status){
-        return this.shoploClient.create(StatusResource.getStatusePath(null), { status });
+        return this.shoploClient.create(StatusResource.getStatusPath(null), { status });
     }
 
     updateStatus(id, status){
-        return this.shoploClient.update(StatusResource.getStatusePath(id), { status });
+        return this.shoploClient.update(StatusResource.getStatusPath(id), { status });
     }
 
     deleteStatus(id){
-        return this.shoploClient.delete(StatusResource.getStatusePath(id), null);
+        return this.shoploClient.delete(StatusResource.getStatusPath(id), null);
     }
 }
 
