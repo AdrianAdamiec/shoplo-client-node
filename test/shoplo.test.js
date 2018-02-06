@@ -6,9 +6,9 @@ describe('Shoplo', () => {
     const base = require('./base');
     const Shoplo = require('..');
 
-    // const accessToken   = base.config.accessToken;
-    // const secretToken   = base.config.secretToken;
-    // const callbackUrl   = base.config.callbackUrl;
+    const accessToken   = base.config.accessToken;
+    const secretToken   = base.config.secretToken;
+    const callbackUrl   = base.config.callbackUrl;
     const clientKey     = base.config.clientKey;
     const clientSecret  = base.config.clientSecret;
     // const shoploClient  = base.shoploClient;
@@ -28,6 +28,14 @@ describe('Shoplo', () => {
             const shoploTest = new Shoplo(base.config);
 
             expect(shoploTest.apiHost).to.not.equal('api.shoplo.com');
+        });
+
+        it('should set access and secret token when passed in config', () => {
+            const shoploTest = new Shoplo(base.config);
+
+            expect(shoploTest.accessToken).to.equal(accessToken);
+            expect(shoploTest.secretToken).to.equal(secretToken);
+            expect(shoploTest.callbackUrl).to.equal(callbackUrl);
         });
     });
 });
