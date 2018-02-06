@@ -14,7 +14,8 @@
     "test": "mocha"
   },
   "author": "Adrian Adamiec <adrianadamiec@gmail.com>",
-  "license": "ISC",
+  "repository": "AdrianAdamiec/shoplo-client-node",
+  "license": "MIT",
   "dependencies": {
     "assert": "^1.4.1",
     "oauth-1-client": "^0.2.4",
