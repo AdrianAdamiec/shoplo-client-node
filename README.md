@@ -14,14 +14,14 @@ This sdk enables node developers to communicate with Shoplo API with an oauth 1 
 ## Installation
 
 ```
-npm install --save shoplo-client-node
+npm install --save shoplo-client
 ```
 
 ## Example
 
 **Authentication using oauth 1.**
 ```js
-const ShoploClient = require('shoplo-client-node');
+const ShoploClient = require('shoplo-client');
 const session = require('express-session');
 const express = require('express');
 
