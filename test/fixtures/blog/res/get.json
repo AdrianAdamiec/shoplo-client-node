@@ -1,0 +1,16 @@
+{
+  "blog":{
+    "id":"4",
+    "title":"Odkrywaj świat",
+    "url":"odkrywaj-swiat",
+    "handle":"odkrywaj_swiat",
+    "commentable":"moderate",
+    "visibility":"1",
+    "meta_title":"Odkrywaj świat",
+    "meta_keywords":"podroze",
+    "meta_description":"Blog poświęcony podróżowaniu",
+    "comment_script":"",
+    "created_at":"2018-02-06 07:01:05",
+    "updated_at":"2018-02-06 07:01:05"
+  }
+}
