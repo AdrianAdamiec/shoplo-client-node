@@ -17,6 +17,29 @@ This sdk enables node developers to communicate with Shoplo API with an oauth 1 
 npm install --save shoplo-client
 ```
 
+## Resources
+
+- abandoned_cart
+- asset
+- blog
+- cart
+- category
+- collection
+- customer
+- order
+- page
+- payment
+- product
+- promotion
+- shipping
+- shop
+- status
+- theme
+- user
+- variant
+- vendor
+- voucher
+
 ## Example
 
 **Authentication using oauth 1.**

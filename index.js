@@ -1,3 +1,5 @@
+'use strict';
+
 const url = require('url');
 const OAuth1Client = require('oauth-1-client');
 const qs = require('qs');
