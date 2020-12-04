@@ -79,11 +79,15 @@ app.get('/callback', async (req, res) => {
     console.log(response);
     res.send('callback');
 });
+
+app.listen(8080);
 ```
 
 **Orders resource.**
 
 ```js
+const OrderResource = require('shoplo-client/resources/order');
+
 app.get('/orders', async (req, res) => {
     const config = {
         "callbackUrl": "http://localhost:8080/callback",
@@ -95,7 +99,7 @@ app.get('/orders', async (req, res) => {
     const shoploClient = new ShoploClient(config);
 
 
-    const orderResource = new OrdersResource(shoploClient);
+    const orderResource = new OrderResource(shoploClient);
     const response = await orderResource.getOrders();
     const response = await orderResource.getCount();
 
